@@ -1,0 +1,78 @@
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .titulo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .titulo img {
+    width: 350px;
+    height: 350px;
+    margin-right: 10px;
+  }
+  
+  .titulo h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .produto p {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 80%;
+  }
+  
+  .Beneficios {
+    width: 80%;
+  }
+  
+  .tema {
+    border-left: 8px solid #333;
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tema h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .tema p {
+    font-size: 18px;
+    color: #666;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .Features {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .Features h2 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+    
+    .Features img {
+      width: 400px;
+      height: 400px;
+      margin-left: 20px;
+    }
+    
